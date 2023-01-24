@@ -10,9 +10,48 @@
 </head>
 <body class="flex">
     <header class="">
-        <div class="side-nav bg-slate-600 h-screen w-16 sm:w-44 flex flex-col items-center fixed" id="nav">
+        <div class="side-nav bg-stone-800 h-screen w-16 sm:w-44 flex flex-col items-center fixed" id="nav">
             <!-- <img src="/images/logo.png" alt="" class="sm:hidden w-10"> -->
-            <h1 id="logo" class="sm:text-center hidden sm:block">SNEHA</h1>
+            <h1 id="logo" class="font-montserrat text-sm text-rose-100 font-bold mt-5 sm:text-2xl sm:underline sm:underline-offset-4">SNEHA</h1>
+
+            <ul class="hidden text-white sm:flex sm:rotate-90 sm:mt-[340px] sm:gap-10 sm:font-raleway sm:tracking-widest sm:text-2xl sm:cursor-pointer">
+                <li class="sm:hover:animate-pulse">Home</li>
+                <li class="sm:hover:animate-pulse">About</li>
+                <li class="sm:hover:animate-pulse">Skills</li>
+                <li class="sm:hover:animate-pulse">Projects</li>
+                <li class="sm:hover:animate-pulse">Contact</li>
+            </ul>
+
+            <button id="home" class="sm:hidden">
+                <div>
+                    <img src="/images/home.png" alt="" class="relative w-10 pt-14">
+                </div>
+            </button>
+
+            <button id="about" class="sm:hidden">
+                <div>
+                    <img src="/images/aboutme.png" alt="" class="w-10 pt-6">
+                </div>
+            </button>
+
+            <button id="skills" class="sm:hidden">
+                <div>
+                    <img src="/images/skills.png" alt="" class="w-10 pt-6">
+                </div>
+            </button>
+
+            <button id="projects" class="sm:hidden">
+                <div>
+                    <img src="/images/projects.png" alt="" class="w-8 ml-2 pt-8">
+                </div>
+            </button>
+
+            <button id="contact" class="sm:hidden">
+                <div>
+                    <img src="/images/contact.png" alt="" class="w-8 ml-2 pt-8">
+                </div>
+            </button>
+
         </div>
     </header>
 
