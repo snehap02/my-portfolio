@@ -9,6 +9,9 @@ module.exports = {
         rajdhani: 'Rajdhani',
         raleway: 'Raleway',
         source: 'Source Code Pro'
+      },
+      backgroundImage:{
+        image: 'url(/images/back.jpg)'
       }
     },
   },
