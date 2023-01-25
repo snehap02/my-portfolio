@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,1,200" />
     <link rel="stylesheet" href="/style.css">
     <title>Sneha Purkayastha</title>
 </head>
 <body class="flex">
     <header class="">
-        <div class="side-nav bg-[#180d30] h-screen w-16 sm:w-44 flex flex-col items-center fixed" id="nav">
-            <!-- <img src="/images/logo.png" alt="" class="sm:hidden w-10"> -->
-            <h1 id="logo" class="font-montserrat text-sm text-rose-100 font-bold mt-5 sm:text-2xl sm:underline sm:underline-offset-4">SNEHA</h1>
+        <div class="side-nav bg-[#b8c1ec] h-screen w-16 sm:w-36 flex flex-col items-center fixed border" id="nav">
+            <img src="/images/logo.png" alt="" class="w-10 sm:14 text-black mt-4">
+            <!-- <h1 id="logo" class="font-montserrat text-sm text-black font-bold mt-5 sm:text-2xl sm:underline sm:underline-offset-4">SNEHA</h1> -->
 
-            <ul class="hidden text-white sm:flex sm:rotate-90 sm:mt-[340px] sm:gap-10 sm:font-raleway sm:tracking-widest sm:text-2xl sm:cursor-pointer">
+            <ul class="hidden text-black sm:flex sm:rotate-90 sm:mt-[340px] sm:gap-10 sm:font-raleway sm:tracking-widest sm:text-2xl sm:cursor-pointer">
                 <li class="sm:hover:animate-pulse">Home</li>
                 <li class="sm:hover:animate-pulse">About</li>
                 <li class="sm:hover:animate-pulse">Skills</li>
@@ -22,47 +23,56 @@
                 <li class="sm:hover:animate-pulse">Contact</li>
             </ul>
 
-            <button id="home" class="sm:hidden">
-                <div>
-                    <img src="/images/home.png" alt="" class="relative w-10 pt-14">
-                </div>
+            <button id="home" class="sm:hidden mt-36">
+                <span class="material-symbols-outlined">
+                    home
+                </span>
             </button>
 
-            <button id="about" class="sm:hidden">
-                <div>
-                    <img src="/images/aboutme.png" alt="" class="w-10 pt-6">
-                </div>
+            <button id="about" class="sm:hidden pt-2">
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
             </button>
 
-            <button id="skills" class="sm:hidden">
-                <div>
-                    <img src="/images/skills.png" alt="" class="w-10 pt-6">
-                </div>
+            <button id="skills" class="sm:hidden ml-1 pt-2">
+                <span class="material-symbols-outlined">
+                    settings_suggest
+                </span>
             </button>
 
-            <button id="projects" class="sm:hidden">
-                <div>
-                    <img src="/images/projects.png" alt="" class="w-8 ml-2 pt-8">
-                </div>
+            <button id="projects" class="sm:hidden pt-2">
+                <span class="material-symbols-outlined">
+                    home_storage
+                </span>
             </button>
 
-            <button id="contact" class="sm:hidden">
-                <div>
-                    <img src="/images/contact.png" alt="" class="w-8 ml-2 pt-8">
-                </div>
+            <button id="contact" class="sm:hidden pt-2">
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
             </button>
 
         </div>
     </header>
 
-    <main class="w-full ml-[68px] sm:ml-44 overflow-scroll p-2 md:hidden bg-image h-screen bg-cover">
-        <section class="main bg-purple-100 h-36">
-            <div class="">
-                <h1>Sneha Purkayastha</h1>
-                <h1>Front-end Developer</h1>
+    <main class="w-full ml-[45px] bg-[#232946] sm:ml-36 overflow-scroll p-2 md:hidden  bg-cover">
+        <section class="main h-48 flex justify-between">
+            <div>
+                <h1 class="text-2xl text-[#fffffe] font-poppins uppercase font-medium mt-12 ml-8"><span class="lowercase text-base text-smallhead font-poppins">Hello, <span class="uppercase text-smallhead font-poppins">I </span>am</span><br>Sneha Purkayastha</h1>
+                <!-- <h1 class="mt-2 ml-8 text-smallhead font-poppins">Front-end Developer</h1> -->
+                <div class="container ml-8 mt-2 font-poppins relative text-">
+                    <span class="">I am a, </span>
+                    <span class="">sdhfkjhf</span>
+                </div>
+            </div>
+            <div>
+                <div class="relative h-[1px] w-20 bg-white -mr-2 mt-5 before:content-['1'] before:text-lg before:absolute before:-top-4 before:-left-4 before:text-white before:bottom-32"></div>
             </div>
         </section>
-        <img src="/images/profile.jpeg" alt="" class="rounded-full w-28 -mt-20 ml-2">
+        <!-- <div class="flex justify-center items-center">
+            <img src="/images/profile.jpeg" alt="" class="rounded-full w-44">
+        </div> -->
     </main>
 
     <script src="/script.js"></script>

@@ -10,8 +10,9 @@ module.exports = {
         raleway: 'Raleway',
         source: 'Source Code Pro'
       },
-      backgroundImage:{
-        image: 'url(/images/back.jpg)'
+      colors:{
+        smallhead: '#b8c1ec',
+        type: '#eebbc3'
       }
     },
   },
