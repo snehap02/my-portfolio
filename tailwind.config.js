@@ -19,7 +19,7 @@ module.exports = {
       },
       keyframes:{
         anim:{
-          '40%, 60%': {left:'100%'},
+          '40%, 60%': {left:'86%'},
           '100%': {left: '0%'}
         }
       }
