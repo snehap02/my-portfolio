@@ -12,16 +12,11 @@ module.exports = {
       },
       colors:{
         smallhead: '#b8c1ec',
-        type: '#eebbc3'
+        type: '#eebbc3',
+        bg: '#d4d8f0'
       },
-      animation:{
-        anim: 'anim 4s steps(12) infinite',
-      },
-      keyframes:{
-        anim:{
-          '40%, 60%': {left:'86%'},
-          '100%': {left: '0%'}
-        }
+      backgroundImage:{
+        back: 'url(/images/back.jpg)'
       }
     },
   },
