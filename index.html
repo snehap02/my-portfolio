@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
     <link rel="stylesheet" href="/style.css">
     <title>Sneha Purkayastha</title>
 </head>
-<body class="bg-back bg-cover bg-fixed bg-no-repeat h-screen relative">
+<body class="bg-back bg-cover bg-fixed bg-no-repeat h-screen relative overflow-x-hidden mx-5">
     <nav class="md:hidden">
-        <div class="bg-purple-900 bg-opacity-40 backdrop-blur-sm rounded-full h-16 w-full bottom-0 fixed mb-4">
+        <div class="bg-purple-900 bg-opacity-40 backdrop-blur-sm rounded-full h-16 w-full bottom-0 fixed mb-4 -ml-5">
             <ul class="flex justify-evenly mt-5">
                 <li class="relative cursor-pointer">
                     <span class="text-md absolute top-0 -ml-8 -translate-y-2  text-white font-bold font-raleway whitespace-nowrap px-5 py-2 rounded-md bg-gradient-to-r from-purple-800 to-pink-800 ring-rose-900 ring-2 before:content-[''] before:absolute before:left-[35%] before:top-[60%] before:bg-gradient-to-r before:from-purple-800 before:to-pink-800 before:-rotate-[45deg] before:w-10 before:h-6 before:z-[-1] opacity-0 hover:opacity-100 hover:-top-12 hover:transition-all hover:duration-700 hover:ease-in-out">Home</span>
@@ -41,6 +41,14 @@
             </ul>
         </div>
     </nav>
+
+    <section class="bg-purple-400 shadow-md shadow-slate-500 mx-auto rounded-md my-2 bg-opacity-20 m-3 w-full relative before:content-[''] before:w-52 before:h-52 before:bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 before:rounded-full before:-top-20 before:absolute before:z-[-1] before:blur-md before:right-5 after:content-[''] after:w-52 after:h-52 after:bg-gradient-to-r after:from-rose-300 after:to-rose-500 after:rounded-full after:top-20 after:absolute after:z-[-1] after:blur-md after:-left-32">
+        <div class="p-10">
+            <h1 class="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 font-poppins">Hii, I am</h1>
+            <h1 class="text-4xl font-extrabold font-poppins uppercase text-transparent bg-clip-text bg-gradient-to-b from-pink-900 via-purple-800 to-purple-900 py-4">Sneha Purkayastha</h1>
+            <h1 class="text-xl font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 via-violet-900 to-purple-800 tracking-wider">A front-end Developer</h1>
+        </div>
+    </section>
 
     <script src="/script.js"></script>
 </body>
