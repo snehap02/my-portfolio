@@ -20,6 +20,9 @@ module.exports = {
       },
       screens:{
         'before-sm': '500px'
+      },
+      borderRadius:{
+        '5xl': '3rem'
       }
     },
   },
