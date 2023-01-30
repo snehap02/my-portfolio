@@ -17,6 +17,9 @@ module.exports = {
       },
       backgroundImage:{
         back: 'url(/images/back.jpg)'
+      },
+      screens:{
+        'before-sm': '500px'
       }
     },
   },
