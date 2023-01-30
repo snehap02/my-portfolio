@@ -19,7 +19,8 @@ module.exports = {
         back: 'url(/images/back.jpg)'
       },
       screens:{
-        'before-sm': '500px'
+        'before-sm': '500px',
+        'before-lg': '850px'
       },
       borderRadius:{
         '5xl': '3rem'
