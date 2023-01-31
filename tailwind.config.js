@@ -16,7 +16,7 @@ module.exports = {
         bg: '#d4d8f0'
       },
       backgroundImage:{
-        back: 'url(/images/back.jpg)'
+        back: 'linear-gradient(90deg, rgba(255,205,0,1) 50%, rgba(0,0,0,1) 50%)'
       },
       screens:{
         'before-sm': '500px',
