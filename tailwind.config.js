@@ -8,7 +8,8 @@ module.exports = {
         poppins: 'Poppins',
         rajdhani: 'Rajdhani',
         raleway: 'Raleway',
-        source: 'Source Code Pro'
+        source: 'Source Code Pro',
+        cinzel: 'Cinzel Decorative'
       },
       colors:{
         smallhead: '#b8c1ec',
@@ -27,6 +28,9 @@ module.exports = {
       },
       borderRadius:{
         '5xl': '3rem'
+      },
+      animation:{
+        'spin-slow': 'spin 3s linear infinite'
       }
     },
   },
