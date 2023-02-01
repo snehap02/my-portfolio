@@ -18,7 +18,7 @@ module.exports = {
         yellow: '#fdc21d'
       },
       backgroundImage:{
-        back: 'linear-gradient(90deg, rgba(255,205,0,1) 50%, rgba(0,0,0,1) 50%)',
+        back: 'linear-gradient(90deg, rgba(252,202,60,1) 55%, rgba(37,37,37,1) 55%)',
         back2: 'linear-gradient(90deg, rgba(0,0,0,1) 56%, rgba(225,205,0,1) 56%)',
         back3: 'linear-gradient(315deg, rgba(225,205,0,1) 56%, rgba(0,0,0,1) 56%)'
       },
