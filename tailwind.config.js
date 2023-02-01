@@ -25,13 +25,15 @@ module.exports = {
       },
       screens:{
         'before-sm': '500px',
-        'before-lg': '850px'
+        'before-lg': '850px',
+        'md-2': '468px'
       },
       borderRadius:{
         '5xl': '3rem'
       },
       animation:{
-        'spin-slow': 'spin 3s linear infinite'
+        'spin-slow': 'spin 3s linear infinite',
+        'fast-pulse': 'pulse 0.5s linear infinite'
       }
     },
   },
