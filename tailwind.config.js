@@ -9,7 +9,8 @@ module.exports = {
         rajdhani: 'Rajdhani',
         raleway: 'Raleway',
         source: 'Source Code Pro',
-        cinzel: 'Cinzel Decorative'
+        cinzel: 'Cinzel Decorative',
+        syncopate: 'Syncopate'
       },
       colors:{
         smallhead: '#b8c1ec',

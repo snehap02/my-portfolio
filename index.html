@@ -11,14 +11,14 @@
 </head>
 <body class="bg-back overflow-x-hidden mx-5 flex flex-col lg:mx-8 cursor-pointer">
     
-    <nav class="md:flex md:justify-between">
-        <div><img src="/images/logo.png" alt="" class="w-16 lg:w-20 py-2 -ml-3 animate-spin-slow"></div>
-        <ul class="hidden md:flex md:gap-12 lg:gap-14 xl:gap-16 md:text-zinc-500 md:font-medium md:mt-5">
-            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#home"></a>Home</li>
-            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#about"></a>About</li>
-            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#projects"></a>Projects</li>
-            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#skills"></a>Skills</li>
-            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#contact"></a>Contact</li>
+    <nav class="md:flex md:justify-between w-full">
+        <div><img src="/images/logo.png" alt="" class="w-16 lg:w-20 py-2 -ml-3 animate-spin-slow fixed"></div>
+        <ul class="hidden md:flex lg:-ml-16 md:-ml-20 md:gap-8 lg:gap-14 xl:gap-16 md:text-zinc-500 md:font-medium md:mt-5">
+            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#home">Home</a></li>
+            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#about">About</a></li>
+            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#projects">Projects</a></li>
+            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#skills">Skills</a></li>
+            <li class="md:text-lg md:font-poppins md:hover:underline-offset-4 md:hover:underline"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
@@ -54,10 +54,27 @@
         </div>
     </nav>
 
-    <section class="hero-section md:mt-20 lg:flex lg:flex-col lg:text-center xl:mt-40" id="home">
-        <div class="mt-2 font-raleway text-xl sm:text-4xl font-bold text-slate-700 drop-shadow-lg shadow-black ">&lt;Hi, I am&gt;</div>
+    <section class="hero-section mt-20 md:mt-32 lg:flex lg:flex-col lg:text-center xl:mt-40 md:ml-20" id="home">
+        <div class="mt-10 font-raleway text-xl sm:text-4xl font-bold text-slate-700 drop-shadow-lg shadow-black ">&lt;Hi, I am&gt;</div>
         <h1 class="text-[100px] font-poppins text-slate-700 font-extrabold uppercase drop-shadow-lg shadow-black sm:text-[120px] sm:ml-10 sm:font-cinzel lg:tracking-widest lg:text-[150px] xl:text-[180px] hover:text-black">Sneha.</h1>
         <h1 class="text-slate-700 font-raleway text-xl font-bold ml-28 drop-shadow-lg shadow-black sm:text-4xl sm:ml-36 lg:-ml-2">A front-end developer.</h1>
+    </section>
+
+    <section class="about-section mt-20" id="about">
+        <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-zinc-800 drop-shadow-lg tracking-wide lg:ml-16">About Me</h1>
+        <div class="absolute w-32 h-[3px] bg-black -mt-5 ml-48 sm:ml-[230px] md:ml-72 lg:ml-[420px] lg:-mt-6"></div>
+        <div class="md:grid md:grid-cols-2 md:gap-44 lg:xl-8 xl:px-10">
+            <img src="/images/WhatsApp_Image_2021-11-08_at_09.21.12-removebg-preview.png" alt="" class=" hidden md:block md:w-80 md:border-4 md:border-x-black md:border-y-zinc-500 md:mt-16 md:ml-16 md:rounded-md lg:ml-32 md:z-50 xl:ml-52 2xl:ml-72 xl:w-[340px]">
+            <h1 class="mt-10 mb-20 bg-amber-200 mx-4 p-5 font-raleway text-md sm:text-lg lg:text-xl font-semibold ring-4 ring-yellow sm:p-10 sm:mx-12 md:w-[400px] md:-ml-32 lg:w-[500px]">
+                Hei, Its me again Sneha ( front-end developer and illustrator) from Assam. My expertise is in the field of Responsive designs and I love to engage myself with tailwindcss. Currently I am learning JavaScript and react. In addition to my attachment with making beautiful websites, I also love to read novels and also try to write some useful blogs.
+            </h1>
+        </div>
+    </section>
+
+    <section class="about-section -mt-6" id="about">
+        <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-zinc-800 drop-shadow-lg tracking-wide lg:ml-16">My projects</h1>
+        <div class="absolute w-32 h-[3px] bg-black lg:ml-[70px]"></div>
+        
     </section>
 
 
