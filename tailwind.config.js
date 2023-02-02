@@ -26,7 +26,11 @@ module.exports = {
       screens:{
         'before-sm': '500px',
         'before-lg': '850px',
-        'md-2': '468px'
+        'md-2': '468px',
+        'sm-0': '633px',
+        'md-3': '871px',
+        'md-4': '914px',
+        'lg-1': '1430px'
       },
       borderRadius:{
         '5xl': '3rem'
