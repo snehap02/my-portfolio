@@ -191,34 +191,39 @@
             </div>
         </section>
     
-        <section class="contact-section mt-20 lg:mt-56 xl:mt-72" id="contact">
+        <section class="contact-section mt-20 lg:mt-40 xl:mt-64" id="contact">
             <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-zinc-900 drop-shadow-lg tracking-wide lg:hidden">Contact Me</h1>
             <div class="absolute w-28 h-[3px] bg-black -mt-5 ml-56 sm:ml-[285px] md:ml-[340px] lg:ml-[520px] lg:hidden"></div>
-            <div class="lg:grid lg:grid-cols-2">
-                <div class="hidden lg:block lg:ml-16 font-syncopate font-semibold text-6xl tracking-wide xl:text-7xl">
+            <div class="lg:grid lg:grid-cols-2 xl:ml-24">
+                <div class="hidden lg:block lg:ml-16 font-syncopate font-semibold text-6xl lg:mt-32 tracking-wide xl:text-[80px]">
                     <h1 class="mt-4">Let's</h1>
                     <h1 class="ml-20 mt-4">Get In</h1>
                     <h1 class="mt-4">touch</h1>
                 </div>
-                <div class="mt-20">
+                <div class="mt-20 md:mx-24 lg:mx-0">
                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.5377199967047!2d92.79279061492576!3d24.811278284077243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a6bb68364eb%3A0x89cee0fa93102699!2sBholagiri%20Ashram%20Rd%2C%20Ambicapatty%2C%20Kanakpur%20Part-II%2C%20Assam%20788005!5e0!3m2!1sen!2sin!4v1676792084474!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full -mt-14"></iframe> -->
-                    <div class="bg-black w-full h-[460px] rounded-xl md:max-w-[500px] relative">
+                    <div class="bg-black w-full h-[600px] rounded-xl lg:max-w-[500px] relative">
                         <div class="flex -mt-10 -ml-4 relative">
                             <span class="h-10 w-10 absolute animate-ping rounded-full bg-amber-500 right-0 -mt-3 mr-6"></span>
                             <img src="/images/iconImg1.png" class="bg-yellow rounded-full p-2 w-14 absolute right-0 -mt-5 mr-4"></img>
                         </div>
-                        <form action="#" class="mx-5 pt-20">
+                        <form action="#" class="mx-5 pt-20 sm:px-10">
                             <div class="flex flex-col" id="namebox">
                                 <label for="name" class="text-yellow font-raleway tracking-widest text-xl">Name</label>
-                                <input type="text" name="name" id="name" class="bg-black text-white outline-none border-t border-b border-yellow py-2 px-1 mt-4">
+                                <input type="text" name="name" id="name" class="bg-black outline-none border-t border-b border-yellow py-2 px-1 sm:px-4 mt-4 font-poppins text-amber-200 placeholder-gray-600" placeholder="Enter Your Name">
                             </div>
                             <div class="flex flex-col mt-7">
                                 <label for="email" class="text-yellow font-raleway tracking-widest text-xl">Email</label>
-                                <input type="text" name="email" id="email" class="bg-black text-white outline-none border-t border-b border-yellow py-2 px-1 mt-4">
+                                <input type="text" name="email" id="email" class="bg-black outline-none border-t border-b border-yellow py-2 px-1 sm:px-4 mt-4 font-poppins text-amber-200 placeholder-gray-600" placeholder="Enter Your Email">
                             </div>
                             <div class="flex flex-col mt-7">
                                 <label for="message" class="text-yellow font-raleway tracking-widest text-xl">Your Message</label>
-                                <textarea rows="4" cols="50" name="msg" id="message" class="bg-black text-white outline-none border-t border-b border-yellow py-2 px-1 mt-4"></textarea>
+                                <textarea rows="4" cols="50" name="msg" id="message" class="bg-black outline-none border-t border-b border-yellow py-2 px-1 sm:px-4 mt-4 font-poppins text-amber-200 placeholder-gray-600" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="mt-10 p-1 rounded-xl hover:border hover:transition-all hover:border-yellow hover:duration-500 hover:scale-105">
+                                <div class="text-center bg-yellow rounded-xl cursor-pointer">
+                                    <button type="submit" class="font-montserrat text-xl tracking-widest font-bold p-3">Submit</button>
+                                </div>
                             </div>
                         </form>
                     </div>
