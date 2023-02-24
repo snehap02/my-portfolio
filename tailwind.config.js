@@ -41,14 +41,13 @@ module.exports = {
       animation:{
         'spin-slow': 'spin 3s linear infinite',
         'fast-pulse': 'pulse 0.5s linear infinite',
-        'beat': 'beat .1s infinite .5s alternate'
+        'heart-beat': 'heartbeat .6s alternate infinite'
       },
       keyframes:{
-        beat:{
-          '0%': {width: '45px', height: '50px'},
-          '25%': {width: '30px', height: '45px'},
-          '50%': {width: '25px', height: '40px'},
-          '75%': {width: '45px', height: '50px'},
+        heartbeat:{
+          '0%': {transform: 'rotate(45deg) scale(1.2)'},
+          '40%': {transform: 'rotate(45deg) scale(1)'},
+          '100%': {transform: 'rotate(45deg) scale(1)'}
         }
       }
     },
