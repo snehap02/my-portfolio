@@ -5,8 +5,9 @@ AOS.init({
 const inputName = document.getElementById('namebox');
 const box = document.querySelectorAll('input');
 const msg = document.getElementById('message');
+const forms = document.getElementById('form');
 
-inputName.addEventListener('click', () => {
+forms.addEventListener('click', () => {
     for(let singlebox of box){
         singlebox.classList.add('border-l-4', 'border-r-4', 'border-yellow', 'transition-all');
     }
