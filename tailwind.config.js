@@ -33,7 +33,8 @@ module.exports = {
         'md-3': '871px',
         'md-4': '914px',
         'md-5': '943px',
-        'lg-1': '1430px'
+        'lg-1': '1430px',
+        'lg-2': '1199px'
       },
       borderRadius:{
         '5xl': '3rem'
