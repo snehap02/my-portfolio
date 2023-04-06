@@ -59,13 +59,13 @@
             <div class="bg-[#fed54e] pt-2">
                 <!-- mobile view -->
                 <div class="bg-white ring-2 ring-neutral-700 h-14 mt-5 grid grid-cols-3 items-center text-center md:hidden px-1 gap-2 font-medium">
-                    <div id="tab-1" class="tab-item border-b-4 border-black py-[12px] font-raleway">
+                    <div id="tab-1" class="tab-item border-b-4 border-black py-[10px] font-raleway">
                         <h1 class="bg-htmlcss px-2 py-1 rounded-full text-white text-base">Html/Css</h1>
                     </div>
-                    <div id="tab-2" class="tab-item">
+                    <div id="tab-2" class="tab-item py-[10px]">
                         <h1 class="bg-amber-400 py-1 rounded-full text-base font-raleway">Javascript</h1>
                     </div>
-                    <div id="tab-3" class="tab-item font-raleway">
+                    <div id="tab-3" class="tab-item font-raleway py-[10px]">
                         <h1 class="bg-sky-500 py-1 rounded-full text-base text-white">React</h1>
                     </div>
                 </div>
@@ -102,14 +102,60 @@
                 <div class="tab-content">
                     <div class="container">
                         <div class="tab-content-item hidden show" id="tab-1-content">
-                            <div class="tab-1-content-inner min-w-full p-2  overflow-x-auto flex scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:flex md:flex-col md:overflow-x-hidden gap-2">
-                                <div class="min-w-full bg-black">
-                                    <img src="/images/img1.png" alt="" class="px-2 py-1">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nihil consequatur tempora asperiores deleniti, qui minus eligendi corporis quam explicabo facilis, eveniet fuga quod expedita nam consectetur vel hic nesciunt.
+                            <div class="tab-1-content-inner min-w-full p-2  overflow-x-auto flex scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:overflow-x-hidden gap-2 pt-5 md:grid md:grid-cols-2">
+                                <!-- 1st box -->
+                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
+                                    <img src="/images/img1.png" alt="" class="px-4 bg-neutral-700 py-4">
+                                    <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
+                                        &lt; A Portfolio Page &gt;
+                                    </h2>
+                                    <h2 class="text-2xl uppercase font-raleway font-bold pt-3">Made With</h2>
+                                    <div class="flex justify-center items-center gap-4 pt-2">
+                                        <img src="/images/htmlWhite.png" alt="" class="w-7">
+                                        <img src="/images/cssWhite.png" alt="" class="w-8">
+                                        <img src="/images/tailwindWhite.png" alt="" class="w-8">
+                                        <img src="/images/responsiveWhite.png" alt="" class="w-8">
+                                    </div>
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                        <a href="https://github.com/snehap02/devchallenge-portfolio" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
+                                        <a href="https://dev-myportfolio.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
+                                    </div>
                                 </div>
-                                <div class="min-w-full">
-                                    <img src="/images/img1.png" alt="">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit 
+                                <!-- 2nd box -->
+                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
+                                    <img src="/images/img11.png" alt="" class="px-6 pr-10 pt- bg-neutral-700 py-[44px]">
+                                    <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
+                                        &lt; Interior Consultant HomePage &gt;
+                                    </h2>
+                                    <h2 class="text-2xl uppercase font-raleway font-bold pt-3">Made With</h2>
+                                    <div class="flex justify-center items-center gap-4 pt-2">
+                                        <img src="/images/htmlWhite.png" alt="" class="w-7">
+                                        <img src="/images/cssWhite.png" alt="" class="w-8">
+                                        <img src="/images/tailwindWhite.png" alt="" class="w-8">
+                                        <img src="/images/responsiveWhite.png" alt="" class="w-8">
+                                    </div>
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                        <a href="https://github.com/snehap02/devchallenge-interior-consultant" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
+                                        <a href="https://interior-design-devchallenge.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
+                                    </div>
+                                </div>
+                                <!-- 3rd box -->
+                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
+                                    <img src="/images/img12.png" alt="" class="px-4 pt-2 bg-neutral-700 py-6">
+                                    <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
+                                        &lt; Edie HomePage &gt;
+                                    </h2>
+                                    <h2 class="text-2xl uppercase font-raleway font-bold pt-3">Made With</h2>
+                                    <div class="flex justify-center items-center gap-4 pt-2">
+                                        <img src="/images/htmlWhite.png" alt="" class="w-7">
+                                        <img src="/images/cssWhite.png" alt="" class="w-8">
+                                        <img src="/images/tailwindWhite.png" alt="" class="w-8">
+                                        <img src="/images/responsiveWhite.png" alt="" class="w-8">
+                                    </div>
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                        <a href="https://github.com/snehap02/devchallenge-edie-homepage" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
+                                        <a href="https://devchallengeproject-edie-homepage.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
