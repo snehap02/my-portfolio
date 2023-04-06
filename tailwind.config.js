@@ -24,7 +24,8 @@ module.exports = {
         back3: 'linear-gradient(315deg, rgba(225,205,0,1) 56%, rgba(0,0,0,1) 56%)',
         back4: 'linear-gradient(304deg, rgba(255,205,0,1) 47%, rgba(0,0,0,1) 47%);',
         back5: 'linear-gradient(304deg, rgba(0,0,0,1) 47%, rgba(255,205,0,1) 47%)',
-        backReverse: 'linear-gradient(90deg, rgba(247,241,229,1) 54%, rgba(254,213,78,1) 54%)'
+        backReverse: 'linear-gradient(90deg, rgba(247,241,229,1) 54%, rgba(254,213,78,1) 54%)',
+        htmlcss: 'linear-gradient(90deg, rgba(239,68,68,1) 55%, rgba(14,116,114,1) 55%)'
       },
       screens:{
         'before-sm': '500px',

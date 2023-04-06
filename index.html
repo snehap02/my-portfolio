@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,1,0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/style.css">
     <title>Sneha Purkayastha</title>
@@ -54,16 +55,54 @@
                 <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-syncopate font-semibold text-zinc-900 drop-shadow-lg tracking-wide lg:ml-16 lg:text-right">My projects</h1>
                 <div class="absolute w-32 h-[3px] bg-black lg:right-0 lg:mr-[40px] lg-3:mr-[85px]"></div>
             </div>
-            <div class="bg-[#fed54e]">
-                <div class="bg-[#393E46] h-12 mt-5 grid grid-cols-3 items-center text-center">
-                    <div class="border-b-4 border-black py-3">
-                        <h1>asdfa</h1>
+            
+            <div class="bg-[#fed54e] pt-2">
+                <!-- mobile view -->
+                <div class="bg-white ring-2 ring-neutral-700 h-14 mt-5 grid grid-cols-3 items-center text-center md:hidden px-1 gap-2 font-medium">
+                    <div id="tab-1" class="tab-item border-b-4 border-black py-[12px] font-raleway">
+                        <h1 class="bg-htmlcss px-2 py-1 rounded-full text-white text-base">Html/Css</h1>
                     </div>
-                    
-                    <h1>sfa</h1>
-                    <h1>sdff</h1>
+                    <div id="tab-2" class="tab-item">
+                        <h1 class="bg-amber-400 py-1 rounded-full text-base font-raleway">Javascript</h1>
+                    </div>
+                    <div id="tab-3" class="tab-item font-raleway">
+                        <h1 class="bg-sky-500 py-1 rounded-full text-base text-white">React</h1>
+                    </div>
                 </div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nemo ipsam similique exercitationem, recusandae cumque nostrum minima reiciendis maxime voluptas doloribus? Quae magnam dolores necessitatibus fugiat consectetur est, quidem sed ab repellat. Voluptas, quia maxime similique culpa ipsum laudantium cupiditate numquam, consequatur vitae facere fugiat, cumque nobis dignissimos rerum natus ad quas eaque? Culpa atque, iure quos at necessitatibus reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, eius. Impedit delectus ipsum voluptas optio, fugiat, magni temporibus dicta mollitia vero laboriosam voluptate sed non iusto eum vel culpa amet, provident explicabo omnis! Facere doloribus eaque ipsa rem, iure amet at. Animi unde molestias enim voluptates facilis excepturi, nulla sapiente, consequuntur exercitationem sunt sed! Debitis dolorem repudiandae magnam sapiente incidunt, ab ipsa facilis doloremque, nobis accusantium exercitationem labore maxime alias! Esse nobis possimus veniam itaque eos quos eum dicta similique sed harum neque debitis sunt voluptate temporibus quia ad commodi magnam dolore, numquam vel eligendi. Voluptate fuga vel dolor placeat!
+                <!-- desktop view -->
+                <div class="bg-white ring-2 ring-neutral-700 md:h-16 mt-5 md:grid md:grid-cols-3 items-center text-center hidden px-1">
+                    <div class="border-b-4 border-black py-3 md:py-[14px] flex justify-center items-center gap-1 font-raleway font-medium">
+                        <h1 class="bg-red-500 px-2 py-1 rounded-full text-white text-lg">HTML
+                            <span class="material-symbols-outlined text-base text-red-300">
+                                fiber_manual_record
+                                </span>
+                        </h1>
+                        <h1 class="bg-cyan-700 px-2 py-1 rounded-full text-white text-lg">TailwindCSS
+                            <span class="material-symbols-outlined text-base text-cyan-300">
+                                fiber_manual_record
+                                </span>
+                        </h1>
+                    </div>
+                    <div class="font-raleway font-medium">
+                        <h1 class="bg-amber-400 mx-10 py-1 rounded-full text-lg">Javascript
+                            <span class="material-symbols-outlined text-base text-amber-100">
+                                fiber_manual_record
+                                </span>
+                        </h1>
+                    </div>
+                    <div class="font-raleway font-medium">
+                        <h1 class="bg-sky-500 mx-10 py-1 rounded-full text-lg text-white">React
+                            <span class="material-symbols-outlined text-base text-sky-200">
+                                fiber_manual_record
+                                </span>
+                        </h1>
+                    </div>
+                </div>
+                <!-- project contents -->
+                <div class="project-content">
+                    
+                </div>
+                
             </div>
         </section>
     
