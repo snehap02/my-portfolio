@@ -52,9 +52,11 @@ module.exports = {
           '0%': {transform: 'rotate(45deg) scale(1.2)'},
           '40%': {transform: 'rotate(45deg) scale(1)'},
           '100%': {transform: 'rotate(45deg) scale(1)'}
-        }
+        },
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }

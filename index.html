@@ -71,7 +71,7 @@
                 </div>
                 <!-- desktop view -->
                 <div class="bg-white ring-2 ring-neutral-700 md:h-16 mt-5 md:grid md:grid-cols-3 items-center text-center hidden px-1">
-                    <div class="border-b-4 border-black py-3 md:py-[14px] flex justify-center items-center gap-1 font-raleway font-medium">
+                    <div id="tab-1" class="tab-item border-b-4 border-black py-3 md:py-[14px] flex justify-center items-center gap-1 font-raleway font-medium">
                         <h1 class="bg-red-500 px-2 py-1 rounded-full text-white text-lg">HTML
                             <span class="material-symbols-outlined text-base text-red-300">
                                 fiber_manual_record
@@ -83,14 +83,14 @@
                                 </span>
                         </h1>
                     </div>
-                    <div class="font-raleway font-medium">
+                    <div id="tab-2" class="tab-item font-raleway font-medium">
                         <h1 class="bg-amber-400 mx-10 py-1 rounded-full text-lg">Javascript
                             <span class="material-symbols-outlined text-base text-amber-100">
                                 fiber_manual_record
                                 </span>
                         </h1>
                     </div>
-                    <div class="font-raleway font-medium">
+                    <div id="tab-3" class="tab-item font-raleway font-medium">
                         <h1 class="bg-sky-500 mx-10 py-1 rounded-full text-lg text-white">React
                             <span class="material-symbols-outlined text-base text-sky-200">
                                 fiber_manual_record
@@ -99,8 +99,31 @@
                     </div>
                 </div>
                 <!-- project contents -->
-                <div class="project-content">
-                    
+                <div class="tab-content">
+                    <div class="container">
+                        <div class="tab-content-item hidden show" id="tab-1-content">
+                            <div class="tab-1-content-inner min-w-full p-2  overflow-x-auto flex scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:flex md:flex-col md:overflow-x-hidden gap-2">
+                                <div class="min-w-full bg-black">
+                                    <img src="/images/img1.png" alt="" class="px-2 py-1">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nihil consequatur tempora asperiores deleniti, qui minus eligendi corporis quam explicabo facilis, eveniet fuga quod expedita nam consectetur vel hic nesciunt.
+                                </div>
+                                <div class="min-w-full">
+                                    <img src="/images/img1.png" alt="">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content-item overflow-x-auto scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:flex md:flex-col md:overflow-x-hidden hidden" id="tab-2-content">
+                            <div class="tab-2-content-inner">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum cum perferendis eos ipsum pariatur ex temporibus dolores expedita officia.
+                            </div>
+                        </div>
+                        <div class="tab-content-item overflow-x-auto scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:flex md:flex-col md:overflow-x-hidden hidden" id="tab-3-content">
+                            <div class="tab-3-content-inner">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo officiis cumque est explicabo nesciunt? Dignissimos aut perspiciatis molestiae alias aliquid?
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>

@@ -23,9 +23,20 @@ forms.addEventListener('click', () => {
 
 // window.addEventListener('mousemove', cursor);
 
-const nav = document.getElementById('navbar');
+const tabItem = document.querySelectorAll('.tab-item');
+const tabContentItem = document.querySelectorAll('.tab-content-item');
 
-let scrollT = 0;
-window.addEventListener('scroll', () => {
-    
-})
+function selectItems(e){
+    removeBorder();
+    removeContent();
+    this.classList.add('border-b-4', 'border-black', 'py-3');
+    const tabContent = document.querySelector(`#${this.id}-content`);
+    tabContent.classList.add('show');
+}
+function removeContent(){
+    tabContentItem.forEach(item => item.classList.remove('show'))
+}
+function removeBorder(){
+    tabItem.forEach(item => item.classList.remove('border-b-4', 'border-black', 'py-3'));
+}
+tabItem.forEach(item => item.addEventListener('click', selectItems));
