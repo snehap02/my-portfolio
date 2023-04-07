@@ -28,6 +28,7 @@ module.exports = {
         htmlcss: 'linear-gradient(90deg, rgba(239,68,68,1) 55%, rgba(14,116,114,1) 55%)'
       },
       screens:{
+        'xs': '383px',
         'before-sm': '500px',
         'before-lg': '850px',
         'md-2': '468px',
