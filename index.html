@@ -56,43 +56,34 @@
                 <div class="absolute w-32 h-[3px] bg-black lg:right-0 lg:mr-[40px] lg-3:mr-[85px]"></div>
             </div>
             
-            <div class="bg-[#fed54e] pt-2">
+            <div class="pt-6">
                 <!-- mobile view -->
-                <div class="bg-white ring-2 ring-neutral-700 h-14 mt-5 grid grid-cols-3 items-center text-center md:hidden px-1 gap-2 font-medium">
-                    <div id="tab-1" class="tab-item border-b-4 border-black py-[10px] font-raleway">
-                        <h1 class="bg-htmlcss px-2 py-1 rounded-full text-white text-base">Html/Css</h1>
+                <div class="bg-white shadow-lg shadow-neutral-800 h-14 mt-5 grid grid-cols-3 items-center text-center  px-1 gap-2 font-bold">
+                    <div id="tab-1" class="tab-item border-b-4 border-black py-[10px] font-raleway lg:py-[8px] md:mx-7">
+                        <h1 class="bg-htmlcss px-2 py-1 rounded-full text-white text-base lg:hidden">Html/Css</h1>
+                        <div class="lg:flex gap-5 justify-center items-center hidden">
+                            <h1 class="bg-red-500 px-2 py-1 rounded-full text-white text-lg">HTML
+                                <span class="material-symbols-outlined text-base text-red-300">
+                                    fiber_manual_record
+                                    </span>
+                            </h1>
+                            <h1 class="bg-cyan-700 px-2 py-1 rounded-full text-white text-lg">TailwindCSS
+                                <span class="material-symbols-outlined text-base text-cyan-300">
+                                    fiber_manual_record
+                                    </span>
+                            </h1>
+                        </div>
                     </div>
-                    <div id="tab-2" class="tab-item py-[10px]">
-                        <h1 class="bg-amber-400 py-1 rounded-full text-base font-raleway">Javascript</h1>
-                    </div>
-                    <div id="tab-3" class="tab-item font-raleway py-[10px]">
-                        <h1 class="bg-sky-500 py-1 rounded-full text-base text-white">React</h1>
-                    </div>
-                </div>
-                <!-- desktop view -->
-                <div class="bg-white ring-2 ring-neutral-700 md:h-16 mt-5 md:grid md:grid-cols-3 items-center text-center hidden px-1">
-                    <div id="tab-1" class="tab-item border-b-4 border-black py-3 md:py-[14px] flex justify-center items-center gap-1 font-raleway font-medium">
-                        <h1 class="bg-red-500 px-2 py-1 rounded-full text-white text-lg">HTML
-                            <span class="material-symbols-outlined text-base text-red-300">
-                                fiber_manual_record
-                                </span>
-                        </h1>
-                        <h1 class="bg-cyan-700 px-2 py-1 rounded-full text-white text-lg">TailwindCSS
-                            <span class="material-symbols-outlined text-base text-cyan-300">
-                                fiber_manual_record
-                                </span>
-                        </h1>
-                    </div>
-                    <div id="tab-2" class="tab-item font-raleway font-medium">
-                        <h1 class="bg-amber-400 mx-10 py-1 rounded-full text-lg">Javascript
-                            <span class="material-symbols-outlined text-base text-amber-100">
+                    <div id="tab-2" class="tab-item md:mx-7 lg:mx-20">
+                        <h1 class="bg-amber-400 py-1 rounded-full text-base font-raleway lg:text-lg">Javascript
+                            <span class="material-symbols-outlined text-base text-amber-100 hidden lg:inline-block">
                                 fiber_manual_record
                                 </span>
                         </h1>
                     </div>
-                    <div id="tab-3" class="tab-item font-raleway font-medium">
-                        <h1 class="bg-sky-500 mx-10 py-1 rounded-full text-lg text-white">React
-                            <span class="material-symbols-outlined text-base text-sky-200">
+                    <div id="tab-3" class="tab-item font-raleway md:mx-7 lg:mx-20">
+                        <h1 class="bg-sky-500 py-1 rounded-full text-base text-white lg:text-lg">React
+                            <span class="material-symbols-outlined text-base text-sky-200 hidden lg:inline-block">
                                 fiber_manual_record
                                 </span>
                         </h1>
@@ -100,12 +91,12 @@
                 </div>
                 <!-- project contents -->
                 <div class="tab-content">
-                    <div class="container">
+                    <div class="container md:p-14 lg:p-0 lg:pt-8">
                         <div class="tab-content-item hidden show" id="tab-1-content">
-                            <div class="tab-1-content-inner min-w-full p-2  overflow-x-auto flex scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow md:overflow-x-hidden gap-2 pt-5 md:grid md:grid-cols-2">
+                            <div class="tab-1-content-inner min-w-full p-2  overflow-x-auto flex scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-yellow lg:overflow-x-hidden gap-2 pt-5 lg:grid lg:grid-cols-3">
                                 <!-- 1st box -->
-                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
-                                    <img src="/images/img1.png" alt="" class="px-4 bg-neutral-700 py-4">
+                                <div class="min-w-full bg-black text-white flex flex-col lg:flex-col justify-center items-center pb-8">
+                                    <img src="/images/img1.png" alt="" class="px-4 lg:pt-2">
                                     <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
                                         &lt; A Portfolio Page &gt;
                                     </h2>
@@ -116,15 +107,15 @@
                                         <img src="/images/tailwindWhite.png" alt="" class="w-8">
                                         <img src="/images/responsiveWhite.png" alt="" class="w-8">
                                     </div>
-                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4 lg:gap-1 lg-4:gap-10 xl:gap-20">
                                         <a href="https://github.com/snehap02/devchallenge-portfolio" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
                                         <a href="https://dev-myportfolio.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
                                     </div>
                                 </div>
                                 <!-- 2nd box -->
-                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
-                                    <img src="/images/img11.png" alt="" class="px-6 pr-10 pt- bg-neutral-700 py-[44px]">
-                                    <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
+                                <div class="min-w-full bg-black text-white flex flex-col lg:flex-col justify-center items-center pb-8">
+                                    <img src="/images/img11.png" alt="" class="px-6">
+                                    <h2 class="font-raleway md-2:text-lg text-sm pt-[70px] tracking-wider xl:pt-20">
                                         &lt; Interior Consultant HomePage &gt;
                                     </h2>
                                     <h2 class="text-2xl uppercase font-raleway font-bold pt-3">Made With</h2>
@@ -134,14 +125,14 @@
                                         <img src="/images/tailwindWhite.png" alt="" class="w-8">
                                         <img src="/images/responsiveWhite.png" alt="" class="w-8">
                                     </div>
-                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4 lg:gap-1 lg-4:gap-10 xl:gap-20">
                                         <a href="https://github.com/snehap02/devchallenge-interior-consultant" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
                                         <a href="https://interior-design-devchallenge.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
                                     </div>
                                 </div>
                                 <!-- 3rd box -->
-                                <div class="min-w-full bg-black text-white flex flex-col justify-center items-center pb-8">
-                                    <img src="/images/img12.png" alt="" class="px-4 pt-2 bg-neutral-700 py-6">
+                                <div class="min-w-full bg-black text-white flex flex-col lg:flex-col justify-center items-center pb-8">
+                                    <img src="/images/img12.png" alt="" class="pt-2 px-4">
                                     <h2 class="font-raleway md-2:text-lg text-sm pt-2 tracking-wider">
                                         &lt; Edie HomePage &gt;
                                     </h2>
@@ -152,7 +143,7 @@
                                         <img src="/images/tailwindWhite.png" alt="" class="w-8">
                                         <img src="/images/responsiveWhite.png" alt="" class="w-8">
                                     </div>
-                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4">
+                                    <div class="flex items-center gap-6 md-2:gap-20 pt-4 lg:gap-1 lg-4:gap-10 xl:gap-20">
                                         <a href="https://github.com/snehap02/devchallenge-edie-homepage" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Github</a>
                                         <a href="https://devchallengeproject-edie-homepage.netlify.app/" class="text-lg font-poppins uppercase font-medium tracking-wider bg-white text-black border-2 border-amber-600 px-4 py-1 rounded-tl-lg rounded-br-lg" target="_blank">Live Site</a>
                                     </div>
