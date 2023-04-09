@@ -13,7 +13,7 @@
 </head>
 <body class="bg-back overflow-x-hidden flex flex-col cursor-pointer bg-no-repeat">
     
-    <nav class="md:flex md:justify-between z-50 md:px-5 md:pb-6 md:shadow-lg lg:pb-8 md:bg-black md:w-full lg:px-6 xl:px-14 md:border-b-4 md:border-yellow" id="navbar">
+    <nav class="md:flex md:justify-between z-50 md:px-5 md:pb-6 md:shadow-lg lg:pb-8 md:bg-black md:w-full lg:px-6 xl:px-14 md:border-b-4 md:border-yellow fixed" id="navbar">
         <div><img src="/images/logoes.png" alt="" class="w-14 bg-black animate-spin-slow md:animate-none md:p-0 lg:w-16 mt-2 rounded-full p-2 fixed ml-3"></div>
         <ul class="hidden md:flex md:-ml-20 md:gap-8 lg:gap-14 md:text-[#c9a44d] md:font-medium md:mt-5 lg:ml-5 lg:mt-6" data-aos="slide-left">
             <li class="md:text-lg md:hover:underline-offset-4 md:hover:underline md:font-poppins"><a href="#">Home</a></li>
@@ -24,11 +24,10 @@
             <li class="md:text-lg md:hover:underline-offset-4 md:hover:underline md:font-poppins"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <!-- <div class="cursor hidden md:flex md:mt-20 md:w-6 md:h-6  absolute ml-20 rounded-full -translate-x-[92px] -translate-y-[90px] pointer-events-none z-0 transition shadow-xl border border-amber-500"></div> -->
 
     <main class="">
         <section class="hero-section mt-20 lg:flex lg:flex-col lg:text-center md:ml-20 px-5" id="home" data-aos="zoom-in">
-            <div class="mt-10 font-raleway text-xl sm:text-4xl xl:text-5xl font-bold text-black drop-shadow-lg shadow-black">&lt;Hi, I am&gt;</div>
+            <div class="mt-16 font-raleway text-xl sm:text-4xl xl:text-5xl font-bold text-black drop-shadow-lg shadow-black">&lt;Hi, I am&gt;</div>
             <h1 class="text-[100px] font-poppins font-extrabold uppercase drop-shadow-lg shadow-black sm:text-[120px] sm:ml-10 sm:font-cinzel lg:tracking-widest lg:text-[150px] xl:text-[220px]">Sneha.</h1>
             <h1 class="text-black font-raleway text-xl font-bold ml-28 drop-shadow-lg shadow-black sm:text-4xl sm:ml-36 lg:-ml-2 xl:text-5xl">A front-end developer.
                 <p class="hidden xl:block text-black text-lg font-raleway tracking-wider font-semibold">&</p>
@@ -171,12 +170,12 @@
                                     </div>
                                 </div>
                                 <!-- 2nd box -->
-                                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam beatae soluta sit doloremque sunt optio fugiat obcaecati cum culpa atque?</div>
+                                <div></div>
                             </div>
                         </div>
                         <div class="tab-content-item overflow-x-auto scrollbar-none scrollbar-thumb-amber-300 scrollbar-track-yellow md:flex md:flex-col md:overflow-x-hidden hidden" id="tab-3-content">
                             <div class="tab-3-content-inner">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo officiis cumque est explicabo nesciunt? Dignissimos aut perspiciatis molestiae alias aliquid?
+                                
                             </div>
                         </div>
                     </div>
@@ -186,8 +185,8 @@
         </section>
     
         <section class="skill-section px-8 bg-black lg-2:px-20 pb-40 sm:-mt-14 md:-mt-16 lg:-mt-32 md:pb-56" id="skills">
-            <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-yellow drop-shadow-lg tracking-wide lg:ml-16 pt-6 xl:pt-10 md:pt-12">My Skills</h1>
-            <div class="absolute w-32 h-[3px] bg-yellow -mt-5 ml-48 sm:ml-[230px] md:ml-72 lg:ml-[440px] lg:-mt-6"></div>
+            <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-yellow drop-shadow-lg tracking-wide lg:ml-16 pt-6 xl:pt-10 md:pt-12">My Skills</h1>
+            <div class="absolute w-32 h-[3px] bg-yellow -mt-5 ml-48 sm:ml-[230px] md:ml-72 lg:ml-[440px] lg:-mt-6 xl:ml-[530px] xl:-mt-7"></div>
             <div class="md:grid md:grid-cols-2 md:gap-6 xl:px-20 lg:mt-24">
                 <div>
                     <div class="grid grid-cols-2">
@@ -251,7 +250,7 @@
         <section class="blog-section mx-8 pt-8 xl:mx-10 bg-back pb-20 lg-2:px-20" id="blogs">
             <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-syncopate font-semibold text-zinc-900 drop-shadow-lg tracking-wide lg:ml-16 lg:text-right">My Blog</h1>
             <div class="absolute w-32 h-[3px] bg-black lg:right-0 lg:mr-[40px] lg-3:mr-[118px] xl:mr-[127px]"></div>
-            <div class="blog-content pt-14 xl:grid xl:grid-cols-2 overflow-x-scroll xl:overflow-hidden scrollbar-none flex gap-5 lg:pt-16">
+            <div class="blog-content pt-14 lg-5:grid lg-5:grid-cols-2 overflow-x-scroll lg-5:overflow-hidden scrollbar-none flex gap-5 lg:pt-16">
                 <!-- 1st blog -->
                 <div class="bg-black bg-opacity-40 p-4 rounded-md flex w-[560px] h-80">
                     <div class="flex bg-black rounded-lg px-3 pb-6 w-full gap-9">
@@ -381,7 +380,7 @@
                     <div class="flex bg-black rounded-lg px-3 pb-6 w-full gap-9">
                         <div class="flex flex-col">
                             <div class="img-part bg-amber-300 rounded-lg flex flex-col justify-center items-center px-4 mx-2 my-3 hover:scale-105 transition duration-500 ease-in-out w-52">
-                                <img src="/images/thirdblog.png" alt="" class="hover:scale-75 transition ease-in-out duration-700">
+                                <img src="/images/fourthblog.png" alt="" class="hover:scale-75 transition ease-in-out duration-700">
                                 <span class="font-raleway font-bold text-sm text-center tracking-wider">Exploring The Window Console</span>
                             </div>
                             <div class="flex justify-center items-center">
@@ -415,19 +414,19 @@
             <h1 class="relative text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:mt-32 md:mt-16 sm:mt-12 font-syncopate font-semibold text-yellow drop-shadow-lg tracking-wide lg:hidden pt-12">Contact Me</h1>
             <div class="absolute w-28 h-[3px] bg-yellow -mt-5 ml-56 sm:ml-[285px] md:ml-[340px] lg:ml-[520px] lg:hidden"></div>
             <div class="lg:hidden flex justify-center items-center gap-5 mt-8 md:gap-10">
-                <div class="bg-yellow px-3 py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
+                <div class="bg-yellow lg:px-3 lg:py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
                     <a href="https://goo.gl/maps/LgBRaw3UJmWwgBV76" target="_blank">
-                        <img src="/images/icons/location.png" alt="" class="w-14">
+                        <img src="/images/icons/location.png" alt="" class="w-14 p-2">
                     </a>
                 </div>
-                <div class="bg-yellow px-3 py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
+                <div class="bg-yellow lg:px-3 lg:py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
                     <a href="mailto:sneha.purkayastha96@gmail.com" target="_blank">
-                        <img src="/images/icons/gmail.png" alt="" class="w-14">
+                        <img src="/images/icons/gmail.png" alt="" class="w-14 p-2">
                     </a>
                 </div>
-                <div class="bg-yellow px-3 py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
+                <div class="bg-yellow lg:px-3 lg:py-2 rounded-2xl ring ring-black cursor-pointer shadow-lg shadow-gray-900">
                     <a href="https://api.whatsapp.com/send?phone=917002969688" target="_blank">
-                        <img src="/images/icons/whatsapp.png" alt="" class="w-14">
+                        <img src="/images/icons/whatsapp.png" alt="" class="w-14 p-2">
                     </a>
                 </div>
             </div>
@@ -456,7 +455,7 @@
                     </div>
                 </div>
                 <div class="mt-20 md:mx-24 lg:mx-0">
-                    <div class="bg-[#171717] w-full h-[600px] rounded-xl lg:max-w-[500px] relative">
+                    <div class="bg-[#333333] w-full h-[600px] rounded-xl lg:max-w-[500px] relative">
                         <div class="flex -mt-10 -ml-4 relative">
                             <span class="h-10 w-10 absolute animate-ping rounded-full bg-amber-500 right-0 -mt-3 mr-6"></span>
                             <img src="/images/iconImg1.png" class="bg-yellow rounded-full p-2 w-14 absolute right-0 -mt-5 mr-4"></img>
@@ -485,8 +484,8 @@
             </div>
         </section>
 
-        <section class="footer-section mt-20 -mx-5 lg:-mx-10">
-            <footer class="bg-[#171717] h-56">
+        <section class="footer-section -mx-5 lg:-mx-10">
+            <footer class="bg-black h-56 px-12">
                 <div class="flex justify-center items-center flex-col pt-5 font-syncopate text-xs tracking-wider">
                     <h1 class="text-[#fade91]">Designed and Developed with
                     </h1>
